@@ -13,8 +13,6 @@ let map = L.map("mapid", {
 // mapbox/satellite-v9
 // mapbox/satellite-streets-v11
 
-// Loop through the cities array and create one marker for each city.
-
 // Coordinates for each point to be used in the polyline.
 let line = [
   [33.9416, -118.4085],
@@ -22,16 +20,6 @@ let line = [
   [40.7899, -111.9791],
   [47.4502, -122.3088]
 ];
-// cityData.forEach(function(city) {
-//   console.log(city)
-//   L.circleMarker(city.location,{
-//     radius:city.population/200000,
-//     color: 'yellow',
-//     fillColor: 'lightyellow'
-//   })
-//   .bindPopup("<h2>" + city.city + ", " + city.state + "</h2> <hr> <h3>Population " + city.population.toLocaleString() + "</h3>")
-// .addTo(map);
-// });
 
 // Create a polyline using the line coordinates and make the line black.
 L.polyline(line, {
