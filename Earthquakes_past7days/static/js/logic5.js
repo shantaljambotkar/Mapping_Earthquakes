@@ -120,7 +120,7 @@ function getRadius(magnitude) {
         for (var i = 0; i < magnitudes.length; i++) {
             console.log(colors[i]);
             div.innerHTML +=
-            "<i style='background: " + colors[i] + "'></i> " +
+            "<section style='background: " + colors[i] + "'></section> " +
             magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+");
         }
         return div;

@@ -15,10 +15,14 @@ body,
   border-radius: 5px;
 }
 
-.legend i {
+section{
+  height:18px
+}
+.legend section {
   float: left;
   width: 18px;
   height: 18 px;
+  
   margin-right: 8px;
   opacity: 0.7;
 }
